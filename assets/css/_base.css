@@ -1,0 +1,55 @@
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.noSelect{
+	-khtml-user-select: none !important;
+	-webkit-touch-callout: none !important;
+	user-select: none !important;
+}
+.noCallout{
+	-webkit-touch-callout: none;
+}
+.noAction{
+	touch-action: none;
+}
+
+.imgNoClick{
+	position: relative;
+}
+.imgNoClickCover{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.floatRight{
+  float: right;
+}
+.floatLeft{
+  float: left;
+}
+
+.focusRingIssue:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.tapHighLightIssue{
+  /* -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); */
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+}
